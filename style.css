@@ -9,13 +9,13 @@
 
 body{
     width: 100%;
-    min-height: 100vh;
     background-color: rgb(243,243,243);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .instagram-wrapper{
@@ -23,7 +23,7 @@ body{
     align-items: center;
     justify-content: center;
     max-width: 935px;
-    height: 85vh;
+    margin-top: 32px 0;
 }
 
 .instagram-phone{
@@ -35,7 +35,7 @@ body{
 }
 
 .instagram-phone img{ 
-    height: 45rem;
+    max-height: 45rem;
 }
 
 .instagram-continue{
@@ -44,12 +44,12 @@ body{
     justify-content: space-between; /*vertical*/
     flex-direction: column;
     max-width: 350px;
-    min-height: 381px;
+    margin-top: 32px;
 }
 
 .group{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     background-color: white;
@@ -61,11 +61,17 @@ body{
 }
 
 .group:nth-child(1){
-    min-height: 396px;
+    min-height: 380px;
+}
+
+.group .not-account{
+    height: 10px;
+    margin-bottom: 10px;
 }
 
 .instagram-logo{
-    height: 3rem;
+    width: 175px;
+    height: 51px;
 }
 
 .profile-photo{
@@ -98,6 +104,7 @@ body{
     display: flex;
 }
 
+
 .link-blue{
     color: #0095f6;
 }
@@ -117,7 +124,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 350px;
 
@@ -143,7 +150,8 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     width: 80%;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .footer .rodape-links{
@@ -157,20 +165,26 @@ body{
     margin: 8px;
     font-size: 12px;
     text-decoration: none;
-    color: rgb(85, 83, 83);
+    color: #8e8e8e;
 }
 
 .creditos{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .text-credito{
     margin: 0 15px 15px 15px;
     font-size: 12px;
     text-decoration: none;
-    color: rgb(85, 83, 83);
+    color: #8e8e8e;
+}
+.text-credito a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #8e8e8e;
 }
 
 
