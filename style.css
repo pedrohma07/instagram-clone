@@ -189,13 +189,7 @@ body{
 
 
 /*media queries*/
-/*
-@media (max-width: 1024px) {
-    .instagram-wrapper{
-        width: 90%;
-    }
-    
-}*/
+
 
 @media (max-width: 875px) {
     body{
@@ -216,4 +210,12 @@ body{
     .group{
         
     }
+}
+
+
+@media (max-width: 450px) {
+    .group{
+        border: none;
+    }
+    
 }
