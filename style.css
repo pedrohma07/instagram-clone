@@ -15,28 +15,28 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    height: 100vh;
 }
 
 .instagram-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 935px;
-    margin-top: 32px 0;
+    align-self: flex-end;
+    width: 100%;
+    margin-top: 32px;
 }
 
 .instagram-phone{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 395px;
+    min-height: 45rem;
     margin-right: 20px;
+    background: url(img/celular.png);
 }
 
-.instagram-phone img{ 
-    max-height: 45rem;
-}
 
 .instagram-continue{
     display: flex;
@@ -149,9 +149,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    max-width: 1000px;
     margin-top: 10px;
     margin-bottom: 50px;
+    align-self: flex-end;
 }
 
 .footer .rodape-links{
@@ -191,6 +192,7 @@ body{
 /*media queries*/
 
 
+
 @media (max-width: 875px) {
     body{
         background-color: #fff;
@@ -211,7 +213,6 @@ body{
         
     }
 }
-
 
 @media (max-width: 450px) {
     .group{
